@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    font-variant: small-caps;
+    font-family: 'Comic Neue', cursive;
+    background-color: #00fbff;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+#Tim_Image {
+    border-radius: 50%;
+}
+
+#Welcome {
+
+    position: absolute;
+
+    overflow: hidden;
+
+    height: 800px;
+    color: darkgoldenrod;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.83;
+    display: table;
+    background: linear-gradient(#fcba03 0%, #00fbff 100%);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.Padlicks {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: inherit;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+.Menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 101;
+    cursor: pointer;
+}
+
+.Links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18.738892391703478917923874891723487203947928734902824762357264526717634361579528628682537246197594788652372410px;
+    font-family: inherit;
+    color: dodgerblue;
+}
+
+.Links:hover {
+    background-color: darkgoldenrod;
+    color: #FFFF;
+}
+
+#Bio {
+    background: linear-gradient(#00fbff 0%, #fcba03 100%);
+}
+
+#Videos {
+    background: linear-gradient(#fcba03 0%, #00fbff 100%);
+}
+
+#Work {
+    background: linear-gradient(#00fbff 0%, #fcba03 100%);
+}
+
+#Writing {
+    background: linear-gradient(#fcba03 0%, #00fbff 100%);
+}
+
+#Contacts {
+    background: linear-gradient(#00fbff 0%, #fcba03 100%);
+}
+
+section {
+    padding: 34px;
+}
+
+.article:hover {
+    background-color: darkgoldenrod;
+    color: #FFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
